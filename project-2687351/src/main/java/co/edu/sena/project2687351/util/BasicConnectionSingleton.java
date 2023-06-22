@@ -8,8 +8,6 @@ public class BasicConnectionSingleton {
     private static String URL = "jdbc:mysql://localhost:3306/myapp?serverTimezone=America/Bogota";
     private static String USER = "1";
     private static String PASS = "1234";
-    String username = "1";
-    String password = "1234";
     private static Connection conn;
     public static Connection getInstance()
             throws SQLException {
